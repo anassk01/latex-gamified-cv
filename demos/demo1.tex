@@ -1,0 +1,165 @@
+% Tech-Focused Gamified CV
+\documentclass[withhyper]{gamifiedcv}
+
+% Custom dimension settings
+\setcvdimension{photowidth}{3.5cm}
+\setcvdimension{skillbarwidth}{4.5cm}
+
+\begin{document}
+
+% Personal Information
+\name{Alex Chen}
+\jobtitle{Senior Software Engineer}
+\level{Tech Archetype: Code Architect - Level 15}
+\alignment{Full-Stack Specialist}
+\tagline{Building the Digital Future}
+
+% Contact Details
+\email{alex.chen@techmail.dev}
+\phone{+1 (555) 123-4567}
+\github{alexchen-dev}
+\linkedin{alexchen-tech}
+\location{San Francisco, CA}
+\photo[3.5cm]{profile1.png}
+
+\makeheader
+
+% Experience Level Visualization
+\xpbar{92}{15}
+
+% ATS Keywords
+\atskeywords{
+    Full Stack Development,
+    Cloud Architecture,
+    System Design,
+    DevOps,
+    Agile Methodology,
+    Microservices,
+    CI/CD,
+    Software Engineering,
+    Technical Leadership
+}
+
+% Tech Stats Dashboard
+\marketingstats
+    {99.9}{System Uptime}
+    {5M+}{Daily Active Users}
+    {250}{Services Deployed}
+    {98}{Code Coverage}
+
+\begin{paracol}{2}
+
+% Main Content Column
+\sectiontitle{terminal}{Tech Profile}
+Senior Software Engineer with expertise in distributed systems and cloud architecture. 
+Specializing in building scalable applications and leading high-performance engineering teams. 
+Quest Master in system optimization and technical architecture.
+
+\sectiontitle{laptop-code}{Epic Achievements}
+
+% Current Role
+\jobentry[
+    company={TechCorp Solutions},
+    startdate={2021},
+    enddate={Present},
+    location={San Francisco},
+    department={Engineering},
+    remote={true}
+]{Senior Software Engineer}
+\begin{jobdescription}
+    \item Architected microservices platform supporting 5M+ daily users
+    \item Led migration to Kubernetes, reducing deployment time by 80%
+    \item Implemented CI/CD pipeline reducing release cycles by 60%
+    \item Mentored junior developers and led technical architecture decisions
+\end{jobdescription}
+\achievementbadge{\faServer}{System Architect}{+2500 XP}
+\achievementbadge{\faDocker}{DevOps Master}{+1800 XP}
+
+% Previous Role
+\jobentry[
+    company={StartupX},
+    startdate={2019},
+    enddate={2021},
+    location={Seattle},
+    department={Backend}
+]{Backend Engineer}
+\begin{jobdescription}
+    \item Developed scalable API services handling 1M+ requests/day
+    \item Optimized database queries reducing latency by 40%
+    \item Implemented real-time analytics processing pipeline
+\end{jobdescription}
+\achievementbadge{\faDatabase}{Database Wizard}{+1500 XP}
+
+\sectiontitle{project-diagram}{Tech Quests}
+
+\jobentry[
+    startdate={2022},
+    enddate={2023},
+    company={Cloud Migration Initiative}
+]{Lead Architect}
+\begin{jobdescription}
+    \item Led complete cloud migration of legacy systems
+    \item Achieved 99.99% uptime post-migration
+    \item Reduced infrastructure costs by 45%
+\end{jobdescription}
+\achievementbadge{\faCloud}{Cloud Champion}{+2000 XP}
+
+\sectiontitle{server}{Infrastructure Skills}
+
+\statbar{Cloud Architecture}{95}
+\statbar{CI/CD Pipeline}{90}
+\statbar{System Design}{92}
+\statbar{Database Design}{88}
+
+
+\switchcolumn
+
+% Skills & Expertise Column
+\sectiontitle{code}{Tech Skill Tree}
+
+% Core Skills
+\skilltreenode{System Architecture}{5}{Grand Master}
+\skilltreenode{Cloud Services}{5}{AWS Sage}
+\skilltreenode{Backend Development}{5}{API Architect}
+\skilltreenode{DevOps}{4}{Pipeline Master}
+\skilltreenode{Frontend}{2}{Ui Basics\\Level 5 : Something else}
+
+\sectiontitle{tools}{Tech Stack Mastery}
+
+\skilldots[Expert]{Go}{5}
+\skilldots[Advanced]{Python}{4}
+\skilldots[Expert]{NodeJS}{5}
+\skilldots[Advanced]{React}{4}
+\skilldots[Expert]{Docker/K8s}{5}
+\skilldots[Advanced]{AWS}{5}
+
+
+\sectiontitle{award}{Technical Certifications}
+
+\jobentry[
+    company={AWS},
+    startdate={2023}
+]{Solutions Architect Professional}
+
+\jobentry[
+    company={Google},
+    startdate={2022}
+]{Cloud Professional Architect}
+
+\jobentry[
+    company={Kubernetes},
+    startdate={2023}
+]{CKA - Certified Kubernetes Administrator}
+
+\sectiontitle{graduation-cap}{Education Quest}
+
+\jobentry[
+    company={Stanford University},
+    startdate={2015},
+    enddate={2019},
+    location={Stanford, CA}
+]{MS in Computer Science}
+\achievementbadge{\faStar}{Academic Excellence}{+1000 XP}
+
+\end{paracol}
+\end{document}
