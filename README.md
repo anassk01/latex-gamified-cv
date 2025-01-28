@@ -1,6 +1,34 @@
 # 🎮 Gamified LaTeX CV Template
 
-A professional LaTeX CV/Resume template with unique gamification elements. Perfect for tech professionals, developers, and creative individuals who want their CV to stand out while maintaining professionalism.
+Stand out with a professionally gamified CV/Resume template that combines creativity with professionalism.
+
+## 📸 Preview
+
+### Light Theme
+<table>
+<tr>
+<td width="50%">
+<img src="assets/lightVersion1.jpg" alt="Light Version Preview"/>
+</td>
+<td width="50%">
+<img src="assets/lightVersion2.jpg" alt="Light Version Detailed"/>
+</td>
+</tr>
+</table>
+
+### Dark Theme
+<table>
+<tr>
+<td width="50%">
+<img src="assets/darkVersion1.jpg" alt="Dark Version Preview"/>
+</td>
+<td width="50%">
+<img src="assets/darkVersion2.jpg" alt="Dark Version Detailed"/>
+</td>
+</tr>
+</table>
+
+[📄 View PDF Example](assets/darkVersion.pdf)
 
 ## ✨ Features
 
@@ -52,7 +80,7 @@ A professional LaTeX CV/Resume template with unique gamification elements. Perfe
 
 ## 💡 Pro Version
 
-For additional features, themes, and premium support, check out the [pro version on Etsy](your-etsy-link).
+For full features and premium support, check out the [pro version on Etsy](https://www.etsy.com/listing/1858429103/professional-gamified-latex-resume).
 
 Pro version includes:
 - Additional themes
@@ -60,6 +88,7 @@ Pro version includes:
 - Regular updates
 - Advanced gamification elements
 - Priority bug fixes
+- More customization options
 
 ## 📄 License
 
@@ -72,7 +101,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📫 Support
 
 - For basic version issues: Open a GitHub issue
-- For pro version support: Contact through Etsy
+- For pro version support: [Contact through Etsy](https://www.etsy.com/listing/1858429103/professional-gamified-latex-resume)
 
 ## 🌟 Show Your Support
 
